@@ -13,7 +13,7 @@ final class AppLogger {
       lineLength: 100,
       colors: true,
     ),
-    level: Level.verbose,
+    level: Level.trace,
     output: null,
     filter: null,
   );

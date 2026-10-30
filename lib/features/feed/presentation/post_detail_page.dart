@@ -88,7 +88,7 @@ class _PostDetailPageState extends ConsumerState<PostDetailPage> {
                         : ListView.separated(
                             padding: const EdgeInsets.symmetric(horizontal: 16),
                             itemCount: comments.length,
-                            separatorBuilder: (_, __) => const Divider(height: 16),
+                            separatorBuilder: (_, _) => const Divider(height: 16),
                             itemBuilder: (_, index) =>
                                 _CommentTile(comment: comments[index]),
                           ),

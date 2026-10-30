@@ -63,7 +63,7 @@ class _FeedPageState extends ConsumerState<FeedPage> {
             controller: _scrollController,
             padding: const EdgeInsets.symmetric(vertical: 8),
             itemCount: posts.length + 1,
-            separatorBuilder: (_, __) => const SizedBox.shrink(),
+            separatorBuilder: (_, _) => const SizedBox.shrink(),
             itemBuilder: (context, index) {
               if (index == posts.length) {
                 final notifier = ref.read(feedPaginationProvider.notifier);

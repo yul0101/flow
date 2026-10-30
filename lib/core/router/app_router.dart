@@ -98,7 +98,7 @@ GoRouter createAppRouter(WidgetRef ref) {
 /// 让 go_router 在 authProvider 变化时自动触发 redirect。
 class _AuthRefreshListenable extends ChangeNotifier {
   _AuthRefreshListenable(this._ref) {
-    _ref.listen(authProvider, (_, __) {
+    _ref.listen(authProvider, (_, _) {
       notifyListeners();
     });
   }
