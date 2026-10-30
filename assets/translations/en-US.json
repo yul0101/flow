@@ -1,0 +1,27 @@
+{
+  "app_title": "Flow",
+  "login": {
+    "title": "Sign In",
+    "welcome": "Welcome back",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Sign In"
+  },
+  "feed": {
+    "title": "Feed",
+    "empty": "No content yet",
+    "no_more": "—— No more ——"
+  },
+  "profile": {
+    "title": "Profile",
+    "not_logged_in": "Not logged in",
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "help": "Help",
+    "logout": "Log out"
+  },
+  "common": {
+    "retry": "Retry",
+    "loading": "Loading..."
+  }
+}

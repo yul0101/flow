@@ -1,0 +1,56 @@
+name: flow
+description: "Flow - 内容社区 Flutter 应用骨架"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # ========== 状态管理 ==========
+  flutter_riverpod: ^3.4.3
+
+  # ========== 路由 ==========
+  go_router: ^18.1.1
+
+  # ========== 网络 ==========
+  dio: ^5.11.1
+
+  # ========== 模型 ==========
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.12.0
+
+  # ========== 主题 ==========
+  flex_color_scheme: ^8.0.0
+
+  # ========== 存储 ==========
+  shared_preferences: ^2.5.6
+
+  # ========== 日志 ==========
+  logger: ^2.8.0
+
+  # ========== i18n ==========
+  easy_localization: ^3.0.8
+
+  # ========== UI 组件 ==========
+  cached_network_image: ^4.0.4
+  pull_to_refresh: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # ========== 代码生成（仅 freezed，Riverpod 用显式 Provider） ==========
+  build_runner: ^2.16.2
+  freezed: ^4.0.3
+  json_serializable: ^6.15.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/

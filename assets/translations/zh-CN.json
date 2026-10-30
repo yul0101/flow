@@ -1,0 +1,27 @@
+{
+  "app_title": "Flow",
+  "login": {
+    "title": "登录",
+    "welcome": "欢迎回来",
+    "email": "邮箱",
+    "password": "密码",
+    "submit": "登录"
+  },
+  "feed": {
+    "title": "Feed",
+    "empty": "暂无内容",
+    "no_more": "—— 没有更多了 ——"
+  },
+  "profile": {
+    "title": "我的",
+    "not_logged_in": "未登录",
+    "settings": "设置",
+    "notifications": "通知",
+    "help": "帮助",
+    "logout": "退出"
+  },
+  "common": {
+    "retry": "重试",
+    "loading": "加载中..."
+  }
+}
